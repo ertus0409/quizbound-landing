@@ -17,6 +17,11 @@ const router = new Router({
       path: '/pricing',
       name: 'Pricing',
       component: () => import(/* webpackChunkName: "blog" */ '@/views/pricing/Index')
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: () => import(/* webpackChunkName: "blog" */ '@/views/login/Index')
     }
   ]
 })

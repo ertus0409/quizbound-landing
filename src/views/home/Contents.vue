@@ -277,51 +277,51 @@
         </v-col>
       </v-row>
 
-      <v-divider class="my-9 mx-3" />
+<!--      <v-divider class="my-9 mx-3" />-->
 
-      <v-card-text>
-        <v-form>
-          <v-container class="px-0">
-            <v-row>
-              <v-col
-                cols="12"
-                md="6"
-              >
-                <v-text-field
-                  label="Name"
-                  outlined
-                />
-              </v-col>
-              <v-col
-                cols="12"
-                md="6"
-              >
-                <v-text-field
-                  label="Email"
-                  outlined
-                />
-              </v-col>
-              <v-col cols="12">
-                <v-textarea
-                  label="Message"
-                  outlined
-                  rows="16"
-                />
-              </v-col>
-              <v-col cols="12">
-                <v-btn
-                  :block="$vuetify.breakpoint.smAndDown"
-                  class="font-weight-light"
-                  color="primary"
-                  large
-                >
-                  Send Message
-                </v-btn>
-              </v-col>
-            </v-row>
-          </v-container>
-        </v-form>
-      </v-card-text>
+<!--      <v-card-text>-->
+<!--        <v-form>-->
+<!--          <v-container class="px-0">-->
+<!--            <v-row>-->
+<!--              <v-col-->
+<!--                cols="12"-->
+<!--                md="6"-->
+<!--              >-->
+<!--                <v-text-field-->
+<!--                  label="Name"-->
+<!--                  outlined-->
+<!--                />-->
+<!--              </v-col>-->
+<!--              <v-col-->
+<!--                cols="12"-->
+<!--                md="6"-->
+<!--              >-->
+<!--                <v-text-field-->
+<!--                  label="Email"-->
+<!--                  outlined-->
+<!--                />-->
+<!--              </v-col>-->
+<!--              <v-col cols="12">-->
+<!--                <v-textarea-->
+<!--                  label="Message"-->
+<!--                  outlined-->
+<!--                  rows="16"-->
+<!--                />-->
+<!--              </v-col>-->
+<!--              <v-col cols="12">-->
+<!--                <v-btn-->
+<!--                  :block="$vuetify.breakpoint.smAndDown"-->
+<!--                  class="font-weight-light"-->
+<!--                  color="primary"-->
+<!--                  large-->
+<!--                >-->
+<!--                  Send Message-->
+<!--                </v-btn>-->
+<!--              </v-col>-->
+<!--            </v-row>-->
+<!--          </v-container>-->
+<!--        </v-form>-->
+<!--      </v-card-text>-->
     </base-card>
   </section>
 </template>

@@ -11,7 +11,7 @@
     name: 'HomeIndex',
 
     metaInfo: {
-      title: 'Landing'
+      title: 'Home'
     },
 
     components: {

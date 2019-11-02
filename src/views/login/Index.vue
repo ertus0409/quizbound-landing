@@ -1,17 +1,20 @@
 <template>
-  <section id="posts">
+  <section id="login">
     <hero />
-
-    <contents />
   </section>
 </template>
 
+<style>
+  #login {
+    background-image: './../../assets/bg6.png';
+  }
+</style>
 <script>
   export default {
-    name: 'PostsIndex',
+    name: 'LoginIndex',
 
     metaInfo: {
-      title: 'Posts'
+      title: 'Login'
     },
 
     components: {
