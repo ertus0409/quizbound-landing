@@ -28,9 +28,6 @@
 </script>
 
 <style>
-  .v-application {
-    background: #e6e6e6 !important;
-  }
   #hero h1 {
     letter-spacing: 4px !important;
   }
