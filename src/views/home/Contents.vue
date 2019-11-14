@@ -18,7 +18,7 @@
 
       <v-card-title
         :class="[$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1']"
-        class="justify-center font-weight-bold grey--text text--darken-3 mb-3 text-center text-break"
+        class="justify-center font-weight-bold grey--text text--darken-3 mb-3 text-center"
       >
         New Qualified Leads in 4-Steps
       </v-card-title>
@@ -27,7 +27,7 @@
         <v-row>
           <v-col
             cols="12"
-            md="3"
+            lg="3"
             sm="6"
           >
             <v-card
@@ -62,7 +62,7 @@
           </v-col>
           <v-col
             cols="12"
-            md="3"
+            lg="3"
             sm="6"
           >
             <v-card
@@ -100,7 +100,7 @@
 
           <v-col
             cols="12"
-            md="3"
+            lg="3"
             sm="6"
           >
             <v-card
@@ -137,7 +137,7 @@
           </v-col>
           <v-col
             cols="12"
-            md="3"
+            lg="3"
             sm="6"
           >
             <v-card
@@ -176,15 +176,18 @@
       </v-container>
 
       <v-container class="mt-3 text-md-center">
-        <v-btn
-          color="blue"
-          style="color: ghostwhite;"
-          class="ma-0"
-          large
-          href="https://app.quizbound.io/register"
-        >
-          Get Started For Free
-        </v-btn>
+        <v-row justify="center">
+          <v-btn
+            color="blue"
+            style="color: ghostwhite;"
+            class="ma-0"
+            large
+            href="https://app.quizbound.io/register"
+          >
+            Get Started For Free
+          </v-btn>
+        </v-row>
+
       </v-container>
 
       <v-divider class="my-9 mx-3" />
@@ -194,7 +197,8 @@
           <v-col
             cols="12"
             md="6"
-            sm="6"
+            sm="12"
+            order="1"
           >
             <v-card-title
               :class="[$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1']"
@@ -210,7 +214,9 @@
           <v-col
             cols="12"
             md="6"
-            sm="6"
+            sm="12"
+            order="2"
+            align="center"
           >
             <v-img
               src="./../../assets/illustrations/ContentCreator-Illustration.png"
@@ -223,7 +229,11 @@
           <v-col
             cols="12"
             md="6"
-            sm="6"
+            sm="12"
+            order="2"
+            order-sm="2"
+            order-md="1"
+            align="center"
           >
             <v-img
               src="./../../assets/illustrations/Business-Illustration.png"
@@ -234,7 +244,8 @@
           <v-col
             cols="12"
             md="6"
-            sm="6"
+            sm="12"
+            order-md="2"
           >
             <v-card-title
               :class="[$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1']"
@@ -252,7 +263,7 @@
         <v-col
           cols="12"
           md="6"
-          sm="6"
+          sm="12"
         >
           <v-card-title
             :class="[$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1']"
@@ -268,7 +279,8 @@
         <v-col
           cols="12"
           md="6"
-          sm="6"
+          sm="12"
+          align="center"
         >
           <v-img
             src="./../../assets/illustrations/Intelligence-Illustration.png"
