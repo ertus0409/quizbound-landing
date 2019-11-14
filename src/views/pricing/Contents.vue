@@ -29,7 +29,7 @@
                   </div>
                   <v-divider class="mb-6 mt-3 mx-3" />
                   <p class="subtitle-1">
-                    unlimited quizzes <br> 100 leads / month
+                    Unlimited quizzes <br> 100 leads / month
                   </p>
                   <v-divider class="my-6 mx-3" />
                   <p class="caption mb-6">
@@ -77,7 +77,7 @@
                   </div>
                   <v-divider class="mb-6 mt-3 mx-3" />
                   <p class="subtitle-1">
-                    unlimited quizzes <br> 5.000 leads / month
+                    Unlimited quizzes <br> 5.000 leads / month
                   </p>
                   <v-divider class="my-6 mx-3" />
                   <p class="caption mb-6">
@@ -125,7 +125,7 @@
                   </div>
                   <v-divider class="mb-6 mt-3 mx-3" />
                   <p class="subtitle-1">
-                    unlimited quizzes <br> 50.000 leads / month
+                    Unlimited quizzes <br> 50.000 leads / month
                   </p>
                   <v-divider class="my-6 mx-3" />
                   <p class="caption mb-6">

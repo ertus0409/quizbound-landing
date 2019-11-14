@@ -212,7 +212,7 @@
             sm="6"
           >
             <v-img
-              src="./../../assets/illustrations/ContentMarketing01.png"
+              src="./../../assets/illustrations/ContentCreator-Illustration.png"
               class="mb-3"
               width="600px"
             ></v-img>
@@ -225,7 +225,7 @@
             sm="6"
           >
             <v-img
-              src="./../../assets/illustrations/Intelligence01.png"
+              src="./../../assets/illustrations/Business-Illustration.png"
               class="mb-3"
               width="600px"
             ></v-img>
@@ -257,11 +257,11 @@
             :class="[$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1']"
             class="text-left font-weight-bold grey--text text--darken-3 mb-3"
           >
-            Take the guess work out of your content.
+            Take the guesswork out of your content.
           </v-card-title>
 
           <v-card-text class="text-left title font-weight-light mx-auto mb-5">
-            Creating consistent and quality content is already hard enough. Take the guess work out of your content plan. Analyze the data from quizzes to better understand your target audience and their beliefs.
+            Creating consistent and quality content is already hard enough. Take the guesswork out of your content plan. Analyze the data from quizzes to better understand your target audience and their beliefs.
           </v-card-text>
         </v-col>
         <v-col
@@ -270,7 +270,7 @@
           sm="6"
         >
           <v-img
-            src="./../../assets/illustrations/GuessWork01.png"
+            src="./../../assets/illustrations/Intelligence-Illustration.png"
             class="mb-3"
             width="600px"
           ></v-img>

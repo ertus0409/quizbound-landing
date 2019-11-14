@@ -15,16 +15,17 @@
     <v-spacer class="hidden-sm-and-up" />
 
     <v-toolbar-title class="headline">
+
       <template v-if="$vuetify.breakpoint.smAndUp">
-        <div class="d-flex">
-          <v-img
-            src="./../../assets/qb-logo.png"
-            width="35px"
-          ></v-img>
-          <span class="font-weight-light">
+          <div @click="routeHome" style="cursor: pointer;" class="d-flex">
+            <v-img
+              src="./../../assets/qb-logo.png"
+              width="35px"
+            ></v-img>
+            <span class="font-weight-light">
             Quiz<strong>Bound</strong>
           </span>
-        </div>
+          </div>
       </template>
     </v-toolbar-title>
 
@@ -68,6 +69,9 @@
       ...mapMutations('app', ['toggleDrawer']),
       onScroll () {
         this.hasColor = window.scrollY > 100
+      },
+      routeHome () {
+        this.$router.push('/')
       }
     }
   }
