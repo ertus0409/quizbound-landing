@@ -40,6 +40,7 @@
                     style="color: white;"
                     class="ma-0"
                     large
+                    href="https://app.quizbound.io/register"
                   >
                     Get Started For Free
                   </v-btn>
@@ -88,6 +89,7 @@
                     style="color: white;"
                     class="ma-0"
                     large
+                    href="https://app.quizbound.io/register"
                   >
                     Get Started For Free
                   </v-btn>
@@ -136,6 +138,7 @@
                     style="color: white;"
                     class="ma-0"
                     large
+                    href="https://app.quizbound.io/register"
                   >
                     Get Started For Free
                   </v-btn>

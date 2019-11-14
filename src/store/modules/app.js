@@ -7,8 +7,6 @@ export default {
     links: [
       ['/', 'Home'],
       ['/pricing', 'Pricing'],
-      ['/login', 'Login'],
-      ['/signup', 'Sign Up']
     ],
     drawer: null
   },

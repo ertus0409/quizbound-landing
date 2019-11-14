@@ -1,7 +1,7 @@
 <template>
   <section id="hero">
     <base-jumbotron
-      :src="require('@/assets/bg6.png')"
+      style="background: linear-gradient(180deg, rgba(136,0,255,1) 0%, rgba(195,42,255,1) 100%);"
       dark
       height="400px"
     >

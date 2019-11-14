@@ -31,7 +31,8 @@
             sm="6"
           >
             <v-card
-              class="mx-auto"
+              @click="show = !show"
+              class="my-card mx-auto"
               max-width="250"
             >
               <v-img
@@ -39,13 +40,12 @@
                 width="30px;"
                 class="mb-3 white--text align-end"
               ></v-img>
-              <v-card-title class="ml-2">
+              <v-card-title class="title d-flex justify-center">
                 1. Plan
               </v-card-title>
-              <v-card-actions>
+              <v-card-actions class="d-flex justify-center">
                 <v-btn
                   icon
-                  @click="show = !show"
                 >
                   <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
                 </v-btn>
@@ -66,7 +66,8 @@
             sm="6"
           >
             <v-card
-              class="mx-auto"
+              @click="show = !show"
+              class="my-card mx-auto"
               max-width="250"
             >
               <v-img
@@ -75,14 +76,13 @@
                 class="mb-3"
               ></v-img>
 
-              <v-card-title class="ml-2">
+              <v-card-title class="title d-flex justify-center">
                 2. Build
               </v-card-title>
 
-              <v-card-actions>
+              <v-card-actions class="d-flex justify-center">
                 <v-btn
                   icon
-                  @click="show = !show"
                 >
                   <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
                 </v-btn>
@@ -104,7 +104,8 @@
             sm="6"
           >
             <v-card
-              class="mx-auto"
+              @click="show = !show"
+              class="my-card mx-auto"
               max-width="250"
             >
               <v-img
@@ -113,14 +114,13 @@
                 class="mb-3"
               ></v-img>
 
-              <v-card-title class="ml-2">
+              <v-card-title class="title d-flex justify-center">
                 3. Connect Apps
               </v-card-title>
 
-              <v-card-actions>
+              <v-card-actions class="d-flex justify-center">
                 <v-btn
                   icon
-                  @click="show = !show"
                 >
                   <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
                 </v-btn>
@@ -141,7 +141,8 @@
             sm="6"
           >
             <v-card
-              class="mx-auto"
+              @click="show = !show"
+              class=" my-card mx-auto"
               max-width="250"
             >
               <v-img
@@ -150,14 +151,13 @@
                 class="mb-3"
               ></v-img>
 
-              <v-card-title class="ml-2">
+              <v-card-title class="title d-flex justify-center">
                 4. Embed & Publish
               </v-card-title>
 
-              <v-card-actions>
+              <v-card-actions class="d-flex justify-center">
                 <v-btn
                   icon
-                  @click="show = !show"
                 >
                   <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
                 </v-btn>
@@ -166,7 +166,7 @@
                 <div v-show="show">
                   <v-divider></v-divider>
                   <v-card-text>
-                    Embed your quiz to your website or make it a pop up. Lay back and watch the new leads dropping into your CRM.
+                    Publish your quiz and embed it to your website, or make it a pop up. Lay back and watch the new leads dropping into your CRM.
                   </v-card-text>
                 </div>
               </v-expand-transition>
@@ -352,3 +352,8 @@
     })
   }
 </script>
+<style>
+  .my-card.v-card--link:before {
+    background:none;
+  }
+</style>

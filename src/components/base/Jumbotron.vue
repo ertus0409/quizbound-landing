@@ -4,17 +4,12 @@
     :light="light"
     tile
   >
-    <v-img
-      :src="src"
-      :height="height"
-    >
       <v-container
         class="fill-height px-4"
         style="padding: 96px 0;"
       >
         <slot />
       </v-container>
-    </v-img>
   </v-sheet>
 </template>
 
@@ -42,7 +37,7 @@
       src: {
         type: String,
         default: undefined,
-        required: true
+        required: false
       }
     }
   }

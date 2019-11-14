@@ -41,6 +41,8 @@
     >
       {{ text }}
     </v-btn>
+    <v-btn href="https://app.quizbound.io/login" small text class="font-weight-light hidden-sm-and-down ml-2">Login</v-btn>
+    <v-btn href="https://app.quizbound.io/register" small text class="font-weight-light hidden-sm-and-down ml-2">Sign Up</v-btn>
   </v-app-bar>
 </template>
 
@@ -76,3 +78,9 @@
     }
   }
 </script>
+
+<style scoped>
+  a{
+    color:inherit;
+  }
+</style>

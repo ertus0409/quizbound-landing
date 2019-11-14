@@ -1,7 +1,7 @@
 <template>
   <section id="hero">
     <base-jumbotron
-      :src="require('@/assets/bg7.png')"
+      style="background: linear-gradient(120deg, rgba(136,0,255,1) 0%, rgba(195,42,255,1) 100%);"
       color="grey darken-4"
       dark
       height="100%"
@@ -35,6 +35,7 @@
               color="blue"
               class="ma-0"
               large
+              href="https://app.quizbound.io/register"
             >
               Get Started For Free
             </v-btn>
