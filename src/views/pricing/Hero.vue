@@ -11,7 +11,7 @@
       >
         <v-col>
           <v-container>
-            <div class="display-1 text-md-center">
+            <div class=" text-center" :class="[$vuetify.breakpoint.mdAndUp ? 'display-1' : 'headline']">
               Our plans are based only on your lead volume.<br>
               After all, your achievement is our success!
             </div>

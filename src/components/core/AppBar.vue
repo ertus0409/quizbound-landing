@@ -16,7 +16,7 @@
 
     <v-toolbar-title class="headline">
 
-      <template v-if="$vuetify.breakpoint.smAndUp">
+      <template>
           <div @click="routeHome" style="cursor: pointer;" class="d-flex">
             <v-img
               src="./../../assets/qb-logo.png"

@@ -9,6 +9,7 @@
     >
       <v-row
         align="center"
+        style="width:100%"
         class="pb-12"
       >
         <v-col
@@ -16,22 +17,22 @@
           md="5"
         >
           <div>
-            <base-title class="mb-5">
-              Generate<br>
+            <base-title class="mb-5" :class="[$vuetify.breakpoint.mdAndUp ? '' : 'd-flex']">
+              Generate<br v-if="$vuetify.breakpoint.mdAndUp">
               Qualified Leads<br>
               with Quizzes
             </base-title>
 
             <v-divider class="mb-5" />
 
-            <div class="subheading mb-5">
-              <p>
+            <div class="mb-5" :class="[$vuetify.breakpoint.mdAndUp ? 'subheading' : 'headline d-flex justify-center py-5']">
+              <p class="text-break">
                 Turn your visitors into sales qualified leads with interactive quizzes. Increase revenue
                 with better targeted data on prospects that minimizes waste.
               </p>
             </div>
 
-            <v-btn
+            <v-btn :class="[$vuetify.breakpoint.mdAndUp ? '' : 'd-flex justify-center']"
               color="blue"
               class="ma-0"
               large
@@ -44,8 +45,12 @@
         <v-col
           cols="12"
           md="7"
+          :class="[$vuetify.breakpoint.mdAndUp ? '' : 'pr-10']"
         >
           <v-img
+            width="100%"
+            height="100%"
+
             src="./../../assets/customerIllustration.png"
           ></v-img>
         </v-col>
@@ -59,3 +64,9 @@
     name: 'HomeHero'
   }
 </script>
+
+<style>
+  .image-responsive{
+
+  }
+</style>

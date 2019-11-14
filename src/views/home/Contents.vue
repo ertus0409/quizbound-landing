@@ -18,7 +18,7 @@
 
       <v-card-title
         :class="[$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1']"
-        class="justify-center font-weight-bold grey--text text--darken-3 mb-3 text-center"
+        class="justify-center font-weight-bold grey--text text--darken-3 mb-3 text-center text-break"
       >
         New Qualified Leads in 4-Steps
       </v-card-title>
@@ -181,6 +181,7 @@
           style="color: ghostwhite;"
           class="ma-0"
           large
+          href="https://app.quizbound.io/register"
         >
           Get Started For Free
         </v-btn>

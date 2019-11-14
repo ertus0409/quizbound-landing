@@ -13,6 +13,12 @@
       >
         <v-list-item-title v-text="text" />
       </v-list-item>
+      <v-list-item href="https://app.quizbound.io/login">
+        <v-list-item-title>Login</v-list-item-title>
+      </v-list-item>
+      <v-list-item href="https://app.quizbound.io/register">
+        <v-list-item-title>Sign Up</v-list-item-title>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
